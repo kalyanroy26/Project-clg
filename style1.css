@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.subform{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #ffff;
+  color: #757575;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.reg{
+    font-size: 1em;
+    color: #2068B2;
+}
+
+.input-group{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0.8em 0;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border-radius: 8px;
+}
+
+.input-group input{
+    width: 100%;
+    font-size: 1em;
+    padding: 1em 1.5em;
+    border: none;
+    font-family: "Rubik", sans-serif;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    outline: none;
+}
+
+.chbox{
+    align-items: center;
+    margin: 0px;
+}
+
+.chbox input{
+    font-size: 1em;
+    padding: 1em 1.5em;
+}
+
+.reg-btn{
+    align-items: center;
+    margin-left: 2px;
+  }
+
+  .reg-btn button{
+    width: 100%;
+    margin: 20px;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+    background: #ffff;
+    color: #2068B2;
+    font-weight: 400;
+    height: 46px;
+    width: 240px;
+    position: relative;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  }
+  
+  .reg-btn button:hover{
+    /* background: linear-gradient(225deg, #fec75a, #fec75a); */
+    box-shadow: -20px 20px 60px #bebebe, 20px -20px 60px #ffffff;
+    background: #2068B2;
+    color: #ffff;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  
+  }

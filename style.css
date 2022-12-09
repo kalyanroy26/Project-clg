@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.bg {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg img {
+  width: 100%;
+}
+
+.default {
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Rubik", sans-serif;
+}
+
+.sub-form {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffff;
+  color: #757575;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.actionbtns
+{
+  width: 60%;
+  height:50px;
+  background-color: #fec75a;
+  display: flex;
+  justify-content: space-between;
+  margin: 2em;
+  position: relative;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+.actionbtn{
+  border-radius: 50px;
+  border: none;
+  background: transparent;
+  outline: none;
+  width: 50%;
+  cursor: pointer;
+  font-size: 1.6em;
+}
+
+.movebtn{
+  border-radius: 50px;
+  position: absolute;
+  height: 90%;
+  margin: 1.9px;
+  width: 50%;
+  border: none;
+  background:#ffff;
+  cursor: pointer;
+  font-size: 1.6em;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transform: translate(0);
+  transition: all 0.2s ease-in-out;
+}
+
+.slidebtn{
+  transform: translate(97%);
+  transition: all 0.2s ease-in-out;
+}
+
+.inputgroup{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0.8em 0;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border-radius: 8px;
+}
+
+.inputgroup input {
+  width: 100%;
+  font-size: 1em;
+  padding: 1em 1.5em;
+  border: none;
+  font-family: "Rubik", sans-serif;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  outline: none;
+}
+
+.chbox{
+  align-items: center;
+  margin-left: 2px;
+}
+
+.btn button{
+  width: 100%;
+  margin: 20px;
+  font-size: 25px;
+  justify-content: center;
+  text-align: center;
+  background: #ffff;
+  font-weight: 400;
+  height: 46px;
+  width: 240px;
+  position: relative;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.btn button:hover{
+  background: linear-gradient(225deg, #fec75a, #fec75a);
+  box-shadow: -20px 20px 60px #bebebe, 20px -20px 60px #ffffff;
+  background: #fec75a;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+}
+
+.form{
+  display: none;
+}
+
+.signupform{
+  display: block;
+}
+
+.loginform{
+  display: block;
+}
